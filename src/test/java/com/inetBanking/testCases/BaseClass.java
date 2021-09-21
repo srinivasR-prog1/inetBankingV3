@@ -18,6 +18,8 @@ import org.testng.annotations.Parameters;
 
 import com.inetBanking.utilities.ReadConfig;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 
 public class BaseClass {
@@ -39,12 +41,14 @@ public class BaseClass {
 		
 		if(br.equals("chrome"))
 		{
-		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+readConfig.getChroPath());
+			
+			WebDriverManager.chromedriver().setup();
+	//	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+readConfig.getChroPath());
 		driver=new ChromeDriver();
 	   }else if(br.equals("firefox"))
 	   {
-		   
-		   System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+readConfig.getFirefoxPath());
+		   WebDriverManager.firefoxdriver().setup();
+		//   System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+readConfig.getFirefoxPath());
 			driver=new FirefoxDriver();
 		   
 	   }
