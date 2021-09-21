@@ -347,3 +347,17 @@
 2021-08-21 15:15:45,894 [pool-2-thread-1] INFO inetBanking - Login Passed
 2021-08-21 15:15:47,854 [pool-2-thread-1] INFO inetBanking - username is provided
 2021-08-21 15:15:48,047 [pool-2-thread-1] INFO inetBanking - password is provided
+2021-09-21 23:33:59,451 [pool-1-thread-1] INFO inetBanking - URL is opened
+2021-09-21 23:34:00,096 [pool-1-thread-1] INFO inetBanking - username is provided
+2021-09-21 23:34:00,188 [pool-1-thread-1] INFO inetBanking - password is provided
+2021-09-21 23:34:01,834 [pool-1-thread-1] INFO inetBanking - Login Passed
+2021-09-21 23:34:03,859 [pool-1-thread-1] INFO inetBanking - username is provided
+2021-09-21 23:34:03,933 [pool-1-thread-1] INFO inetBanking - password is provided
+2021-09-21 23:34:04,732 [pool-1-thread-1] INFO inetBanking - Login Passed
+2021-09-21 23:34:10,579 [pool-2-thread-1] INFO inetBanking - URL is opened
+2021-09-21 23:34:10,879 [pool-2-thread-1] INFO inetBanking - username is provided
+2021-09-21 23:34:10,985 [pool-2-thread-1] INFO inetBanking - password is provided
+2021-09-21 23:34:12,197 [pool-2-thread-1] INFO inetBanking - Login Passed
+2021-09-21 23:34:13,976 [pool-2-thread-1] INFO inetBanking - username is provided
+2021-09-21 23:34:14,124 [pool-2-thread-1] INFO inetBanking - password is provided
+2021-09-21 23:34:15,112 [pool-2-thread-1] INFO inetBanking - Login Passed
